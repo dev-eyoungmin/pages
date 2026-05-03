@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pages</title>
+<style>
+  :root {
+    --bg: #FAF8F4;
+    --card: #FFFFFF;
+    --ink: #1F1A12;
+    --muted: #6B5E50;
+    --amber: #F59E0B;
+    --border: #ECE4D6;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Noto Sans KR", "Segoe UI", Roboto, sans-serif;
+    background: var(--bg);
+    color: var(--ink);
+    -webkit-font-smoothing: antialiased;
+  }
+  main { max-width: 640px; margin: 0 auto; padding: 96px 20px; }
+  h1 { font-size: 28px; margin: 0 0 32px; letter-spacing: -0.01em; }
+  .project {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    padding: 24px;
+    margin-bottom: 12px;
+    text-decoration: none;
+    color: var(--ink);
+    display: block;
+    transition: border-color .15s ease;
+  }
+  .project:hover { border-color: var(--amber); }
+  .project-name { font-weight: 600; font-size: 18px; margin-bottom: 4px; }
+  .project-desc { color: var(--muted); font-size: 14px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Projects</h1>
+  <a class="project" href="./malssum-daily/">
+    <div class="project-name">말씀매일 (Malssum Daily)</div>
+    <div class="project-desc">개인정보처리방침 · 이용약관</div>
+  </a>
+</main>
+</body>
+</html>
