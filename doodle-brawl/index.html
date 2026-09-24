@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>낙서 난투 (Doodle Brawl)</title>
+<meta name="description" content="공책 속 콤보 액션 난투 게임 낙서 난투">
+<link rel="stylesheet" href="./style.css">
+<style>
+  main { max-width: 640px; padding-top: 96px; text-align: center; }
+  .logo {
+    width: 88px; height: 88px; margin: 0 auto 24px; border-radius: 24px;
+    background: var(--red); color: #fff; font-size: 40px; font-weight: 700;
+    display: flex; align-items: center; justify-content: center;
+    box-shadow: 0 8px 24px rgba(214, 58, 44, 0.25);
+  }
+  h1 { font-size: 36px; letter-spacing: -0.02em; }
+  .tagline { color: var(--muted); font-size: 17px; margin: 0 0 48px; }
+  .links { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; max-width: 480px; margin: 0 auto; }
+  @media (max-width: 480px) { .links { grid-template-columns: 1fr; } }
+  .link-card {
+    background: var(--card); border: 1px solid var(--border); border-radius: 16px; padding: 20px;
+    color: var(--ink); display: block; transition: border-color .15s ease, transform .15s ease;
+  }
+  .link-card:hover { border-color: var(--red); transform: translateY(-2px); text-decoration: none; }
+  .link-title { font-weight: 600; font-size: 16px; margin-bottom: 4px; }
+  .link-desc { color: var(--muted); font-size: 14px; }
+  .contact { margin-top: 56px; padding-top: 32px; border-top: 1px solid var(--border); color: var(--muted); font-size: 14px; }
+</style>
+</head>
+<body>
+<main>
+  <div class="logo">낙</div>
+  <h1>낙서 난투</h1>
+  <p class="tagline">빨간 펜 낙서 영웅이 공책 100스테이지를 누비는 콤보 액션 게임<br>Doodle Brawl — a combo action game across 100 notebook stages</p>
+
+  <nav class="links">
+    <a class="link-card" href="./privacy.html">
+      <div class="link-title">개인정보처리방침</div>
+      <div class="link-desc">Privacy Policy</div>
+    </a>
+    <a class="link-card" href="./support.html">
+      <div class="link-title">지원</div>
+      <div class="link-desc">Support · FAQ</div>
+    </a>
+  </nav>
+
+  <div class="contact">
+    문의 · Contact: <a href="mailto:be.onn.corp@gmail.com">be.onn.corp@gmail.com</a>
+  </div>
+</main>
+</body>
+</html>
