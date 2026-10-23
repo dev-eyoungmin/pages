@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>거꾸로 탑 (Upside Spire)</title>
+<meta name="description" content="중력을 뒤집어 오르는 픽셀 액션 게임 거꾸로 탑">
+<link rel="stylesheet" href="./style.css">
+<style>
+  main { max-width: 640px; padding-top: 96px; text-align: center; }
+  .logo {
+    width: 88px; height: 88px; margin: 0 auto 24px; border-radius: 24px;
+    background: #0B0D12; color: #D6B05C; font-size: 40px; font-weight: 700;
+    display: flex; align-items: center; justify-content: center;
+    box-shadow: 0 8px 24px rgba(11, 13, 18, 0.25);
+  }
+  .logo span { display: inline-block; transform: rotate(180deg); }
+  h1 { font-size: 36px; letter-spacing: -0.02em; }
+  .tagline { color: var(--muted); font-size: 17px; margin: 0 0 48px; }
+  .links { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; max-width: 480px; margin: 0 auto; }
+  @media (max-width: 480px) { .links { grid-template-columns: 1fr; } }
+  .link-card {
+    background: var(--card); border: 1px solid var(--border); border-radius: 16px; padding: 20px;
+    color: var(--ink); display: block; transition: border-color .15s ease, transform .15s ease;
+  }
+  .link-card:hover { border-color: var(--red); transform: translateY(-2px); text-decoration: none; }
+  .link-title { font-weight: 600; font-size: 16px; margin-bottom: 4px; }
+  .link-desc { color: var(--muted); font-size: 14px; }
+  .contact { margin-top: 56px; padding-top: 32px; border-top: 1px solid var(--border); color: var(--muted); font-size: 14px; }
+</style>
+</head>
+<body>
+<main>
+  <div class="logo"><span>탑</span></div>
+  <h1>거꾸로 탑</h1>
+  <p class="tagline">바닥과 천장을 뒤집으며 거꾸로 선 탑을 오르는 픽셀 액션 게임<br>Upside Spire — a pixel action game where you flip gravity to climb an upside-down tower</p>
+
+  <nav class="links">
+    <a class="link-card" href="./privacy.html">
+      <div class="link-title">개인정보처리방침</div>
+      <div class="link-desc">Privacy Policy</div>
+    </a>
+    <a class="link-card" href="./support.html">
+      <div class="link-title">지원</div>
+      <div class="link-desc">Support · FAQ</div>
+    </a>
+  </nav>
+
+  <div class="contact">
+    문의 · Contact: <a href="mailto:miniyoung37@gmail.com">miniyoung37@gmail.com</a>
+  </div>
+</main>
+</body>
+</html>
