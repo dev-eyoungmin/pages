@@ -50,7 +50,8 @@ iOS에서는 광고 동의 화면(필요한 지역)에 이어 추적 허용 요�
   - iOS: 추적 요청에서 "앱에 추적 금지 요청"을 고르거나, 설정 › 개인정보 보호 및 보안 › 추적에서 끕니다.
   - 안드로이드: 설정 › Google › 광고에서 광고 맞춤 설정을 끄거나 광고 ID를 삭제합니다.
   - 게임 안: 광고 동의가 필요한 지역(유럽 경제 지역, 영국 등)에서는 설정에 "개인정보 선택" 버튼이 나타나 동의를 다시 바꿀 수 있습니다.
-- 거부하면 맞춤형이 아닌 광고가 나오며 게임 기능에는 차이가 없습니다.</p>
+- 거부하면 맞춤형이 아닌 광고가 나오며 게임 기능에는 차이가 없습니다.
+- 광고 등급: 앱에 표시되는 광고는 전체 이용가(G) 등급으로 제한됩니다.</p>
   </section>
 
   <section>
@@ -93,12 +94,12 @@ Google의 처리 방식은 <a href="https://policies.google.com/privacy" target=
     <h2>7. 보유 기간, 파기 및 안전성 확보 조치</h2>
     <p>개발자는 이용자의 개인정보를 보관하지 않습니다. 광고 SDK가 수집한 정보는 Google의 정책에 따라 보관되고 파기됩니다. 앱을 삭제하면 기기에 저장된 게임 기록이 모두 지워집니다.
 
-광고 요청은 암호화된 연결(HTTPS)로만 전송되며, 게임 기록은 기기의 앱 전용 저장 공간에만 저장됩니다.</p>
+Google 광고 SDK는 암호화된 연결로 통신하며, 게임 기록은 기기의 앱 전용 저장 공간에만 저장됩니다.</p>
   </section>
 
   <section>
     <h2>8. 만 14세 미만 아동</h2>
-    <p>개발자는 아동의 개인정보를 직접 수집하지 않습니다. 만 14세 미만 이용자는 추적 허용 여부를 보호자와 함께 정하시기 바랍니다.</p>
+    <p>앱은 아동을 대상으로 하지 않으며, 스토어의 대상 연령은 만 13세 이상입니다. 개발자는 아동의 개인정보를 직접 수집하지 않습니다. 만 14세 미만 이용자는 추적 허용 여부를 법정대리인(보호자)과 함께 정하시기 바랍니다.</p>
   </section>
 
   <section>
@@ -146,7 +147,8 @@ On iOS, where ad consent is required the consent form is shown first, followed b
   - iOS: choose "Ask App Not to Track" on the tracking prompt, or turn it off in Settings › Privacy &amp; Security › Tracking.
   - Android: turn off ad personalization or delete the advertising ID in Settings › Google › Ads.
   - In the game: where ad consent is required (the European Economic Area, the UK and similar), a "Privacy choices" button appears in Settings so you can change your choice.
-- If you opt out you will see non-personalized ads, and every game feature still works.</p>
+- If you opt out you will see non-personalized ads, and every game feature still works.
+- Ad rating: ads in the app are limited to the G (general audiences) rating.</p>
   </section>
 
   <section>
@@ -157,7 +159,6 @@ On iOS, where ad consent is required the consent form is shown first, followed b
 - Data: the information in section 2
 - Purpose: the purposes in section 2
 - Retention: according to Google's privacy policy
-- Safeguards: Google relies on recognized transfer mechanisms such as standard contractual clauses.
 - If you do not want this: opt out of tracking as in section 3. The minimum needed to request an ad (approximate location, diagnostics) may still be sent; to avoid it, play with the device offline (everything except ads works offline).
 
 The developer does not use any other processor for personal information.
@@ -166,28 +167,41 @@ See <a href="https://policies.google.com/privacy" target="_blank" rel="noopener"
   </section>
 
   <section>
-    <h2>5. Who is responsible, legal bases and your rights</h2>
-    <p>- Responsible person: Youngmin Lee (be.onn), <a href="mailto:be.onn.corp@gmail.com">be.onn.corp@gmail.com</a>. Google acts as an independent controller for the advertising data it collects.
-- Legal bases: personalized ads rely on your consent, which you can withdraw at any time. Non-personalized ads, ad measurement and fraud prevention rely on legitimate interests in funding a free game.
-- Your rights: you can ask for access, correction, erasure, restriction, portability, or object to processing. The developer keeps no personal information, so a request is answered by confirming that. Requests about ad data can also be made to Google.
-- Complaints: you can complain to your local data protection authority, such as the UK Information Commissioner's Office (ico.org.uk).
-- Requests: email the address above; we reply within 10 days.</p>
+    <h2>5. Your rights</h2>
+    <p>You can ask for access, correction, deletion or suspension of processing of your personal information. The developer keeps no personal information, so a request is answered by confirming that.
+
+- Deleting game data: deleting the app removes everything stored on your device.
+- Ad information processed by Google: you can make requests through your Google Account's ad settings or the procedures in Google's privacy policy.
+- Requests: email the address in section 6; we reply within 10 days.
+- Your local data protection authority can also handle complaints.</p>
   </section>
 
   <section>
-    <h2>6. Retention, deletion and security</h2>
+    <h2>6. Privacy officer</h2>
+    <p>- Officer: Youngmin Lee (be.onn)
+- Email: <a href="mailto:be.onn.corp@gmail.com">be.onn.corp@gmail.com</a>
+
+For users in Korea, reports and consultations about privacy infringement can also go to these Korean bodies:
+- Personal Information Infringement Report Center: privacy.kisa.or.kr, 118 (no area code)
+- Personal Information Dispute Mediation Committee: www.kopico.go.kr, 1833-6972
+- Supreme Prosecutors' Office: www.spo.go.kr, 1301 (no area code)
+- National Police Agency: ecrm.police.go.kr, 182 (no area code)</p>
+  </section>
+
+  <section>
+    <h2>7. Retention, deletion and security</h2>
     <p>The developer keeps no personal information. Information collected by the ad SDK is kept and deleted under Google's policies. Deleting the app removes all game data stored on your device.
 
-Ad requests are sent only over encrypted connections (HTTPS), and game data stays in the app's private storage on your device.</p>
+Google's ad SDK communicates over encrypted connections, and game data stays in the app's private storage on your device.</p>
   </section>
 
   <section>
-    <h2>7. Children</h2>
-    <p>The developer does not directly collect personal information from children. Children should decide on tracking together with a parent or guardian.</p>
+    <h2>8. Children</h2>
+    <p>The app is not directed at children, and the store target audience is 13 and older. The developer does not directly collect personal information from children. Under Korean law, users under 14 should decide on tracking together with a legal guardian.</p>
   </section>
 
   <section>
-    <h2>8. Changes</h2>
+    <h2>9. Changes</h2>
     <p>This policy may change with laws or the service. Any new version will be posted on this page with its effective date.
 
 - October 28, 2026: first version</p>
