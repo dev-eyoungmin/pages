@@ -20,15 +20,15 @@
     <p>루미도쿠(Lumidoku, 이하 "앱")는 이용자의 개인정보를 직접 수집하지 않으며, 개발자가 운영하는 서버도 없습니다.
 
 - 회원가입과 로그인이 없습니다.
-- 게임 기록(깬 단계와 단계별 최고 기록, 반짝이(게임 안 포인트), 남은 힌트, 보유한 꾸미기 항목과 고른 몽실이 몸 색·등불, 언어 설정, 진동 설정, 이번 주 몽실 파티 점수)은 기기 안에만 저장되며 외부로 보내지 않습니다. 앱을 삭제하면 함께 지워집니다.
+- 게임 기록(깬 단계와 단계별 최고 기록, 반짝이(게임 안 포인트), 남은 힌트, 보유한 꾸미기 항목과 고른 몽실이 몸 색·등불, 언어 설정, 진동 설정, 이번 주 몽실 파티 점수, 오늘의 퍼즐 연속 기록, 광고 제거 구매 여부)은 기기 안에만 저장되며 외부로 보내지 않습니다. 앱을 삭제하면 함께 지워집니다.
 - 몽실 파티는 실제 사람이 아닌 가상의 몽실 친구들(다른 유령들)과 겨루는 주간 순위표입니다. 순위는 기기 안에서 계산되며 어디에도 보내지 않습니다.
 - 게임은 인터넷 연결 없이도 할 수 있습니다. 네트워크는 광고에만 쓰입니다.
-- 힌트 묶음(소모성 인앱 상품)을 살 수 있습니다. 결제는 Apple App Store 또는 Google Play가 처리하며, 개발자는 결제 수단·카드 정보 등 결제 정보를 받지 않습니다. 앱은 산 힌트 수와 지급이 끝난 거래 번호만 기기 안에 저장합니다.</p>
+- 힌트 묶음(소모성 인앱 상품)과 광고 제거(비소모성 인앱 상품)를 살 수 있습니다. 결제는 Apple App Store 또는 Google Play가 처리하며, 개발자는 결제 수단·카드 정보 등 결제 정보를 받지 않습니다. 앱은 산 힌트 수, 지급이 끝난 거래 번호, 광고 제거 여부만 기기 안에 저장합니다. 광고 제거는 "구매 복원"으로 스토어에서 다시 확인해 되살릴 수 있습니다.</p>
   </section>
 
   <section>
     <h2>2. 광고 제공 과정에서 처리되는 정보</h2>
-    <p>앱은 Google LLC의 광고 서비스인 Google AdMob으로 광고를 표시합니다. 광고는 보상형 광고뿐이며, 이용자가 힌트 1개를 받으려고 광고 보기를 직접 골랐을 때만 나오며, 하루 3번까지 볼 수 있습니다. 전면 광고와 배너 광고는 없습니다. 광고를 요청하고 표시하는 과정에서 AdMob SDK가 아래 정보를 수집해 Google에 전송할 수 있습니다.
+    <p>앱은 Google LLC의 광고 서비스인 Google AdMob으로 광고를 표시합니다. 광고는 두 가지입니다. 보상형 광고는 이용자가 힌트 1개를 받으려고 직접 골랐을 때만 나오며 하루 1번 볼 수 있습니다. 전면 광고는 판을 3번 끝낼 때마다 완료 화면을 닫은 뒤 한 번 나오며, 광고 제거를 사면 나오지 않습니다. 배너 광고는 없습니다. 광고를 요청하고 표시하는 과정에서 AdMob SDK가 아래 정보를 수집해 Google에 전송할 수 있습니다.
 
 - 기기 식별자: 광고 식별자. iOS(IDFA)는 이용자가 추적을 허용한 경우에만 전달됩니다. 안드로이드(광고 ID)는 기기 설정에서 재설정하거나 삭제할 수 있습니다.
 - 대략적인 위치: IP 주소로 추정한 국가·지역 수준의 위치. 정밀 위치는 수집하지 않습니다.
@@ -109,7 +109,8 @@ Google 광고 SDK는 암호화된 연결로 통신하며, 게임 기록은 기�
 
 - 2026년 11월 13일: 최초 시행
 - 2026년 11월 14일: 힌트 묶음 인앱 구입, 하루 3번 광고 제한 반영
-- 2026년 11월 15일: 캐릭터·용어 변경, 기기에 저장하는 단계별 최고 기록 추가</p>
+- 2026년 11월 15일: 캐릭터·용어 변경, 기기에 저장하는 단계별 최고 기록 추가
+- 2026년 11월 19일: 광고 제거 인앱 구입, 3판마다 전면 광고, 힌트 광고 하루 1번, 오늘의 퍼즐 연속 기록 반영</p>
   </section>
 
   <h3 class="part" id="en">Privacy Policy (English)</h3>
@@ -120,15 +121,15 @@ Google 광고 SDK는 암호화된 연결로 통신하며, 게임 기록은 기�
     <p>Lumidoku ("the app") does not directly collect personal information, and the developer runs no servers.
 
 - There is no account or sign-in.
-- Game data (levels cleared and your best result on each level, sparkles (in-game points), remaining hints, decorations you own and your chosen Puffy body color and lantern, language setting, vibration setting, and this week's Puffy Party points) is stored only on your device and is never sent anywhere. It is deleted when you delete the app.
+- Game data (levels cleared and your best result on each level, sparkles (in-game points), remaining hints, decorations you own and your chosen Puffy body color and lantern, language setting, vibration setting, this week's Puffy Party points, your daily puzzle streak, and whether you bought Remove Ads) is stored only on your device and is never sent anywhere. It is deleted when you delete the app.
 - Puffy Party is a weekly leaderboard against fictional Puffy friends (other little ghosts), not real people. Rankings are calculated on your device and are never sent anywhere.
 - The game can be played offline. The network is used only for ads.
-- You can buy hint packs (consumable in-app purchases). Payment is handled by the Apple App Store or Google Play; the developer does not receive your payment method, card or other payment details. The app stores only the number of hints bought and the ids of transactions already granted, on your device.</p>
+- You can buy hint packs (consumable in-app purchases) and Remove Ads (a non-consumable in-app purchase). Payment is handled by the Apple App Store or Google Play; the developer does not receive your payment method, card or other payment details. The app stores only the number of hints bought, the ids of transactions already granted and whether you own Remove Ads, on your device. Remove Ads can be restored from the store with "Restore purchases".</p>
   </section>
 
   <section>
     <h2>2. Information processed for advertising</h2>
-    <p>The app shows ads through Google AdMob, a service of Google LLC. The only ads are rewarded ads, which appear only when you choose to watch an ad to get one hint, up to 3 times a day. There are no interstitial or banner ads. To request and show ads, the AdMob SDK may collect the following and send it to Google:
+    <p>The app shows ads through Google AdMob, a service of Google LLC. There are two kinds of ads. Rewarded ads appear only when you choose to watch one to get a hint, once a day. A full-screen (interstitial) ad appears once after every 3 finished games, when you close the clear screen; buying Remove Ads turns these off. There are no banner ads. To request and show ads, the AdMob SDK may collect the following and send it to Google:
 
 - Device identifier: the advertising identifier. On iOS (IDFA) it is passed only if you allow tracking. On Android (advertising ID) you can reset or delete it in the device settings.
 - Approximate location: country or region estimated from your IP address. Precise location is not collected.
@@ -209,7 +210,8 @@ Google's ad SDK communicates over encrypted connections, and game data stays in 
 
 - November 13, 2026: first version
 - November 14, 2026: hint pack in-app purchases and the 3-ads-a-day limit
-- November 15, 2026: new mascot and wording; added the best result per level to the data kept on your device</p>
+- November 15, 2026: new mascot and wording; added the best result per level to the data kept on your device
+- November 19, 2026: Remove Ads in-app purchase, a full-screen ad every 3 games, one hint ad a day, daily puzzle streak</p>
   </section>
 
   <footer>
